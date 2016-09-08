@@ -1,0 +1,19 @@
+
+public class DoMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calculate.square(5.0);
+		Calculate.cube(5.0);
+		Calculate.average(2.0, 6.0);
+		Calculate.average(2.0, 6.0, 1.0);
+		Calculate.toDegrees(x);
+		Calculate.toRadians(x);
+		Calculate.discriminant(x, y, z);
+		Calculate.toImproperFrac(3, 1, 2);
+		System.out.println(Calculate.toMixedNum(7, 2));
+		
+	}
+
+}
