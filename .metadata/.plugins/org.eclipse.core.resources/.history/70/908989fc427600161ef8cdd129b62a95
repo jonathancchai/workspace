@@ -1,0 +1,62 @@
+/* */
+
+
+public class Calculate {
+
+		public static double square (double x){
+			double answer = x*x;
+			return answer;
+		}
+		
+		public static double cube (double x){
+			double answer = x*x*x;
+			return answer;
+		} 
+
+		public static double average (double x, double y){
+			double answer = (x + y)/2;
+			return answer;
+		}
+		
+		public static double average (double x, double y, double z){
+			double answer = (x + y + z)/3;
+			return answer;
+		}
+		
+		public static double toDegrees (double x){
+			double answer = x * (180 / 3.14159);
+			return answer;
+		}
+		
+		public static double toRadians (double x){
+			double answer = x * (3.14159 / 180);
+			return answer;
+		}
+
+		public static double discriminant (double x, double y, double z){
+			double answer = (y * y) - (4 * x * z);
+			return answer;
+		}
+		
+		public static String toImproperFrac (int x, int y, int z){
+			return (x * z + y) + "/" + z;
+		}
+		
+		public static String toMixedNum (int x, int y){
+			String answer = x / y + "_" + x % y + "/" + y;
+			return answer;
+		}
+		
+		public static String foil (int x, int y, int z, int a){
+			int First = x * z;
+			int Outer = x * a;
+			int Inner = y * z;
+			int Last = y * a;
+			return (First + "x2" + Outer + Inner + "x" + Last);
+		}
+		
+		public static boolean isDivisibleBy (){
+		}
+}
+
+
